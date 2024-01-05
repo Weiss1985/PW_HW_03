@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pw-hw-03"
+version = "0.1.0"
+description = ""
+authors = ["Weiss1985 <weiss1985@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+pick = "^2.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
